@@ -1,0 +1,15 @@
+Player 6 (Rating: 840.9850200403718) is waiting for a match.
+Player 15 (Rating: 998.4503861454187) is waiting for a match.
+Player 19 (Rating: 988.5676585625534) is waiting for a match.
+
+Game ID: 1
+Player 6 is ready!
+Player 19 is ready!
+Player 15 is ready!
+Winner is player 15
+
+Player 6's new rating: 835.2304569258143 ( -5.754563114557413 )
+Player 19's new rating: 978.8520296364384 ( -9.715628926115073 )
+Player 15's new rating: 1013.9205781860912 ( +15.470192040672487 )
+Game 1 is over.
+
