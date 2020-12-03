@@ -25,7 +25,7 @@ def connectionLoop(sock):
         data = data[2 : len(data) - 1]
         data = json.loads(data)
         if 'playerList' in data['cmd']:
-            allPlayers = GetGetAllPlayers()
+            allPlayers = GetAllPlayers()
             message = {"cmd":'playerList', "playerList": allPlayers}
             m = json.dumps(message)
             sock.sendto(bytes(m,'utf8'), (addr[0],addr[1])) # Send the player list to the requesting client
@@ -57,7 +57,7 @@ def GetPlayerRating(playerid)->str:
     rating = body['Rating']
     return rating
 
-def GetGetAllPlayers()->list:
+def GetAllPlayers()->list:
     response = requests.get(urlGetAllPlayers)
     body = json.loads(response.content)
     return body
